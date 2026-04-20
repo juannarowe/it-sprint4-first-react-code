@@ -41,8 +41,10 @@ Each folder is a standalone exercise with its own `package.json` and Vite dev se
 
 ## Running an exercise
 
+Each exercise has its own `package.json`, so you need to navigate into the specific exercise folder:
+
 ```bash
-cd "learn-react/01. Static pages/23. ReactFacts Project - Navbar & Styling"
+cd "learn-react/01. Static pages/<exercise folder>"
 npm install
 npm run dev
 ```
