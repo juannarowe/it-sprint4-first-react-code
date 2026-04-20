@@ -1,12 +1,12 @@
 # Learn React — Static Pages
 
-Exercícios da **Seção 1: Static Pages** do curso [Learn React](https://scrimba.com/learn-react-c0e) da Scrimba, feitos por **Juan Narowe** como parte do treinamento ITA Frontend.
+Exercises from **Section 1: Static Pages** of the [Learn React](https://scrimba.com/learn-react-c0e) course on Scrimba.
 
-## Sobre o curso
+## About the course
 
-O curso ensina React do zero, cobrindo componentes, JSX, estado, efeitos colaterais e projetos completos. Este repositório contém apenas a **Seção 1**, focada em páginas estáticas e fundamentos de componentes React.
+This course teaches React from scratch, covering components, JSX, state, side effects, and full projects. This repository contains only **Section 1**, focused on static pages and React component fundamentals.
 
-## Estrutura do projeto
+## Project structure
 
 ```
 learn-react/
@@ -23,13 +23,13 @@ learn-react/
     ├── 13. Pop quiz
     ├── 14. Custom Components
     ├── 15. Custom Components Challenge Part 2
-    ├── 16. Custom Components Quiz        ← quiz conceitual respondido
-    ├── 17. Fragments                     ← uso de <> em vez de <div>
-    ├── 18. Custom Components - Parent Child Components  ← extração de componentes
-    ├── 19. Styling with Classes          ← nav com classNames
-    ├── 20. Organizing Components         ← componentes em arquivos separados
+    ├── 16. Custom Components Quiz
+    ├── 17. Fragments
+    ├── 18. Custom Components - Parent Child Components
+    ├── 19. Styling with Classes
+    ├── 20. Organizing Components
     ├── 21. Make Mental Outline of Project
-    ├── 22. Initial Project Setup         ← App.jsx + components/
+    ├── 22. Initial Project Setup
     ├── 23. ReactFacts Project - Navbar & Styling
     ├── 24. ReactFacts Project - Main Content Section
     ├── 25. ReactFacts Project - Coloring the Bullets
@@ -37,9 +37,9 @@ learn-react/
     └── 27. Section 1 Recap
 ```
 
-Cada pasta é um exercício independente com seu próprio `package.json` e servidor Vite.
+Each folder is a standalone exercise with its own `package.json` and Vite dev server.
 
-## Como rodar um exercício
+## Running an exercise
 
 ```bash
 cd "learn-react/01. Static pages/23. ReactFacts Project - Navbar & Styling"
@@ -47,33 +47,33 @@ npm install
 npm run dev
 ```
 
-Acesse `http://localhost:5173` no navegador.
+Then open `http://localhost:5173` in your browser.
 
-## Conceitos abordados na Seção 1
+## Concepts covered in Section 1
 
-| Exercício | Conceito |
-|-----------|----------|
-| 03–04 | Primeiro código React, JSX vs `createElement` |
-| 08 | JSX — sintaxe e regras |
-| 09–10 | Por que React? Composabilidade e declaratividade |
-| 14–15 | Componentes customizados |
-| 16 | Quiz: o que é um componente, erros comuns |
-| 17 | React Fragments (`<>`) — evitar wrappers desnecessários |
-| 18 | Componentes pai e filho |
-| 19 | `className` em vez de `class`, estilização com CSS |
-| 20 | Organização: um componente por arquivo |
-| 21–22 | Planejamento e setup inicial de projeto |
-| 23–27 | Projeto **ReactFacts** — navbar, conteúdo, bullets coloridos, imagem de fundo |
+| Exercise | Concept |
+|----------|---------|
+| 03–04 | First React code, JSX vs `createElement` |
+| 08 | JSX — syntax and rules |
+| 09–10 | Why React? Composability and declarativeness |
+| 14–15 | Custom components |
+| 16 | Quiz: what is a component, common mistakes |
+| 17 | React Fragments (`<>`) — avoiding unnecessary wrappers |
+| 18 | Parent and child components |
+| 19 | `className` instead of `class`, CSS styling |
+| 20 | Organization: one component per file |
+| 21–22 | Project planning and initial setup |
+| 23–27 | **ReactFacts** project — navbar, content, colored bullets, background image |
 
-## Projeto final: ReactFacts
+## Final project: ReactFacts
 
-O projeto da seção é uma página estática com curiosidades sobre o React, construída progressivamente do exercício 22 ao 27.
+The section project is a static page with fun facts about React, built progressively from exercise 22 to 27.
 
-**Stack:** React 18 + Vite + CSS puro + fonte Inter (Google Fonts)
+**Stack:** React 18 + Vite + plain CSS + Inter font (Google Fonts)
 
-## Links úteis
+## Useful links
 
-- [Curso Learn React — Scrimba](https://scrimba.com/learn-react-c0e)
-- [Figma do ReactFacts](https://scrimba.com/links/figma-reactfacts)
-- [Documentação React](https://react.dev)
+- [Learn React course — Scrimba](https://scrimba.com/learn-react-c0e)
+- [ReactFacts Figma design](https://scrimba.com/links/figma-reactfacts)
+- [React documentation](https://react.dev)
 - [Vite](https://vitejs.dev)
